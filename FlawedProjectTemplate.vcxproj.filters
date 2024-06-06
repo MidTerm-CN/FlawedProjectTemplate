@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d6631234-2dc8-4b1b-ab51-513f28d865b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence">
+      <UniqueIdentifier>{63b481f0-6eb2-4d1d-8caa-86520cd1980d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7516b4b8-a46a-492d-aacd-0da408e82429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Feature">
+      <UniqueIdentifier>{b8e64296-9dbb-476d-9752-a69b3f698363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\NaResolver">
+      <UniqueIdentifier>{a633156b-cd6a-4f5a-b984-0f3c397c88c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\SDK">
+      <UniqueIdentifier>{00c4aa6d-99ef-4904-979a-214daa5bd52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Menu">
+      <UniqueIdentifier>{0f0af965-9c19-43ec-a72c-ef33e290e047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\Detours">
+      <UniqueIdentifier>{d3b537df-4e34-4938-bb20-e8991aed5bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\ImGui">
+      <UniqueIdentifier>{893aae36-e505-4b09-a105-ef26c0056d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\ImRender">
+      <UniqueIdentifier>{d1395e1e-3725-42e7-b08c-cc4d9b0d65b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utils">
+      <UniqueIdentifier>{fc535637-e78d-4159-983c-effc2f8c0e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\XorString">
+      <UniqueIdentifier>{182dc401-e3e9-4a33-9f01-78b56b1ce3d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Menu\dxgi.h">
+      <Filter>Core\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\NaResolver\NaResolver.h">
+      <Filter>Dependence\NaResolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\Detours\detours.h">
+      <Filter>Dependence\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imconfig.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui_impl_dx11.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui_impl_win32.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imgui_internal.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_rectpack.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_textedit.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\imstb_truetype.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>Dependence\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\ImRender\ImRender.h">
+      <Filter>Dependence\ImRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\SDK\SDK.h">
+      <Filter>Dependence\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\Hook.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils\String.h">
+      <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Feature\Main.h">
+      <Filter>Core\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Menu\Menu.h">
+      <Filter>Core\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependence\XorString\XorString.h">
+      <Filter>Dependence\XorString</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_demo.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_draw.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_impl_win32.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_tables.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\imgui_widgets.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependence\ImGui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Dependence\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
